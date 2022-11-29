@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <style>
+      table {
+        text-align: left;
+        position: relative;
+        border-collapse: collapse;
+      }
+
+      td,
+      th {
+        border: 1px solid black;
+        padding: 20px;
+      }
+
+      th {
+        border-radius: 0;
+        position: sticky;
+        top: 0;
+        padding: 10px;
+      }
+
+      thead,
+      tfoot > tr {
+        background-color: #414141;
+        color: white;
+      }
+
+      tbody > tr:hover {
+        background-color: #978242;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">October</th>
+          <th colspan="2">November</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sales</td>
+          <td>Profit</td>
+          <td>$200,00</td>
+          <td>$50,00</td>
+        </tr>
+        <tr>
+          <td>Sales</td>
+          <td>Profit</td>
+          <td>$300,000</td>
+          <td>$70,000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="4">November was more productive</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
